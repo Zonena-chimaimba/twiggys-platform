@@ -1,0 +1,55 @@
+[2026-05-19T16:42:42.019Z] [ENTRY] createSubmission called
+[2026-05-19T16:42:42.149Z] [BODY] {"customerName":"NormTest","phoneNumber":"0666666666","itemOrdered":"Norm check","amountPaid":75,"paymentMethod":"mpamba","transactionRef":"ref-norm","paymentProofUrl":"https://example.com/proof4.jpg"}
+[2026-05-19T16:42:42.210Z] [STEP] Before destructuring
+[2026-05-19T16:42:42.211Z] [STEP] After destructuring
+[2026-05-19T16:42:42.213Z] [VALIDATION] Starting validation
+[2026-05-19T16:42:42.269Z] [VALIDATION] PASSED
+[2026-05-19T16:42:42.300Z] [DB] Before prisma.submission.create
+[2026-05-19T16:42:42.316Z] [DB] Data: customerName=NormTest, phone=0666666666, item=Norm check, amount=75
+[2026-05-19T16:42:42.650Z] [DB] After create - submission.id=cmpcv2tqv00007owpw4b04jr8
+[2026-05-19T16:42:42.653Z] [RESPONSE] Before res.status(201).json()
+[2026-05-19T16:42:42.667Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-05-19T17:04:07.513Z] [ENTRY] createSubmission called
+[2026-05-19T17:04:07.552Z] [BODY] {"customerName":"FinalTest","phoneNumber":"0555555555","itemOrdered":"Final audit item","amountPaid":999,"paymentMethod":"national_bank","transactionRef":"final-ref-001","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/v1/test.jpg"}
+[2026-05-19T17:04:07.609Z] [STEP] Before destructuring
+[2026-05-19T17:04:07.626Z] [STEP] After destructuring
+[2026-05-19T17:04:07.630Z] [VALIDATION] Starting validation
+[2026-05-19T17:04:07.643Z] [VALIDATION] PASSED
+[2026-05-19T17:04:07.647Z] [DB] Before prisma.submission.create
+[2026-05-19T17:04:07.660Z] [DB] Data: customerName=FinalTest, phone=0555555555, item=Final audit item, amount=999
+[2026-05-19T17:04:07.960Z] [DB] After create - submission.id=cmpcvudj40000pprvxc12ldlr
+[2026-05-19T17:04:07.977Z] [RESPONSE] Before res.status(201).json()
+[2026-05-19T17:04:08.012Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-05-19T18:23:04.144Z] [ENTRY] createSubmission called
+[2026-05-19T18:23:04.184Z] [BODY] {"customerName":"zay zonish","phoneNumber":"+265 886947006","socialUsername":"0886947006","itemOrdered":"air-force, size 7, white color","paymentMethod":"airtel_money","amountPaid":74999.96,"transactionRef":"twiggy-sithe/proof-uploads/btwilkljcwjj5dotbdfs","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/v1779214973/twiggy-sithe/proof-uploads/btwilkljcwjj5dotbdfs.jpg"}
+[2026-05-19T18:23:04.191Z] [STEP] Before destructuring
+[2026-05-19T18:23:04.204Z] [STEP] After destructuring
+[2026-05-19T18:23:04.212Z] [VALIDATION] Starting validation
+[2026-05-19T18:23:04.252Z] [VALIDATION] PASSED
+[2026-05-19T18:23:04.261Z] [DB] Before prisma.submission.create
+[2026-05-19T18:23:04.278Z] [DB] Data: customerName=zay zonish, phone=+265 886947006, item=air-force, size 7, white color, amount=74999.96
+[2026-05-19T18:23:05.955Z] [DB] After create - submission.id=cmpcynwy00000li1st36eoag7
+[2026-05-19T18:23:05.957Z] [RESPONSE] Before res.status(201).json()
+[2026-05-19T18:23:05.977Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-05-19T18:56:23.445Z] [ENTRY] createSubmission called
+[2026-05-19T18:56:24.872Z] [BODY] {"customerName":"Twiggy Gwamba","phoneNumber":"+265 777777777","socialUsername":"0777777777","itemOrdered":"50 Bags, white color","paymentMethod":"national_bank","amountPaid":150000,"transactionRef":"twiggy-sithe/proof-uploads/l2zxpwvkr17ltxvxghsp","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/v1779216960/twiggy-sithe/proof-uploads/l2zxpwvkr17ltxvxghsp.jpg"}
+[2026-05-19T18:56:24.875Z] [STEP] Before destructuring
+[2026-05-19T18:56:24.877Z] [STEP] After destructuring
+[2026-05-19T18:56:24.878Z] [VALIDATION] Starting validation
+[2026-05-19T18:56:24.880Z] [VALIDATION] PASSED
+[2026-05-19T18:56:24.881Z] [DB] Before prisma.submission.create
+[2026-05-19T18:56:24.882Z] [DB] Data: customerName=Twiggy Gwamba, phone=+265 777777777, item=50 Bags, white color, amount=150000
+[2026-05-19T18:56:28.209Z] [DB] After create - submission.id=cmpczursu0001li1s96q3pg1e
+[2026-05-19T18:56:28.211Z] [RESPONSE] Before res.status(201).json()
+[2026-05-19T18:56:28.214Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-05-19T19:17:34.811Z] [ENTRY] createSubmission called
+[2026-05-19T19:17:34.842Z] [BODY] {"customerName":"klaus","phoneNumber":"9876554346","socialUsername":"","itemOrdered":"shoes hnuhybgtb tuihjumnuju unynyb","paymentMethod":"airtel_money","amountPaid":90000,"transactionRef":"twiggy-sithe/proof-uploads/z18tkakrrt1cgfsw076y","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/v1779218249/twiggy-sithe/proof-uploads/z18tkakrrt1cgfsw076y.jpg"}
+[2026-05-19T19:17:34.858Z] [STEP] Before destructuring
+[2026-05-19T19:17:34.888Z] [STEP] After destructuring
+[2026-05-19T19:17:34.924Z] [VALIDATION] Starting validation
+[2026-05-19T19:17:34.943Z] [VALIDATION] PASSED
+[2026-05-19T19:17:34.956Z] [DB] Before prisma.submission.create
+[2026-05-19T19:17:34.969Z] [DB] Data: customerName=klaus, phone=9876554346, item=shoes hnuhybgtb tuihjumnuju unynyb, amount=90000
+[2026-05-19T19:17:35.789Z] [DB] After create - submission.id=cmpd0m0180002li1sxoe9i712
+[2026-05-19T19:17:35.806Z] [RESPONSE] Before res.status(201).json()
+[2026-05-19T19:17:35.821Z] [RESPONSE] After res.status(201).json() - request complete
