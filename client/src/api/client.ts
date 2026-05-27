@@ -1,13 +1,14 @@
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
+// Prefer the Vite-provided `VITE_API_URL` at build time. Fall back to the
+// production backend URL when the env var is not set (safe default for Render).
+const API_URL = import.meta.env['VITE_API_URL'] ?? 'https://twiggys-backend.onrender.com'
 
 export const api = axios.create({
   baseURL: `${API_URL}/api`,
   headers: { 'Content-Type': 'application/json' },
   timeout: 15_000,
 })
-
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('ts_admin_token')
   if (token) {
