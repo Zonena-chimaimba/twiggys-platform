@@ -53,3 +53,47 @@
 [2026-05-19T19:17:35.789Z] [DB] After create - submission.id=cmpd0m0180002li1sxoe9i712
 [2026-05-19T19:17:35.806Z] [RESPONSE] Before res.status(201).json()
 [2026-05-19T19:17:35.821Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-06-02T21:11:32.326Z] [ENTRY] createSubmission called
+[2026-06-02T21:11:32.569Z] [BODY] {"customerName":"AuditCheck","phoneNumber":"0911000099","itemOrdered":"Final audit item","amountPaid":50,"paymentMethod":"mpamba","transactionRef":"audit-ref-final","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/test.jpg"}
+[2026-06-02T21:11:32.584Z] [STEP] Before destructuring
+[2026-06-02T21:11:32.587Z] [STEP] After destructuring
+[2026-06-02T21:11:32.589Z] [VALIDATION] Starting validation
+[2026-06-02T21:11:32.591Z] [VALIDATION] PASSED
+[2026-06-02T21:11:32.603Z] [DB] Before prisma.submission.create
+[2026-06-02T21:11:32.606Z] [DB] Data: customerName=AuditCheck, phone=0911000099, item=Final audit item, amount=50
+[2026-06-02T21:11:38.339Z] [DB] After create - submission.id=cmpx4ujmb000013wu17dyhyvf
+[2026-06-02T21:11:38.342Z] [RESPONSE] Before res.status(201).json()
+[2026-06-02T21:11:38.387Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-06-02T21:12:28.538Z] [ENTRY] createSubmission called
+[2026-06-02T21:12:28.550Z] [BODY] {"customerName":"WarmTest","phoneNumber":"0900000001","itemOrdered":"Warm test","amountPaid":1,"paymentMethod":"mpamba","transactionRef":"warm-ref","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/warm.jpg"}
+[2026-06-02T21:12:28.555Z] [STEP] Before destructuring
+[2026-06-02T21:12:28.559Z] [STEP] After destructuring
+[2026-06-02T21:12:28.566Z] [VALIDATION] Starting validation
+[2026-06-02T21:12:28.569Z] [VALIDATION] PASSED
+[2026-06-02T21:12:28.583Z] [DB] Before prisma.submission.create
+[2026-06-02T21:12:28.586Z] [DB] Data: customerName=WarmTest, phone=0900000001, item=Warm test, amount=1
+[2026-06-02T21:12:28.614Z] [DB] After create - submission.id=cmpx4voac000113wusfzr3dvl
+[2026-06-02T21:12:28.654Z] [RESPONSE] Before res.status(201).json()
+[2026-06-02T21:12:28.671Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-06-02T21:15:05.691Z] [ENTRY] createSubmission called
+[2026-06-02T21:15:05.706Z] [BODY] {"customerName":"ColdStartTest","phoneNumber":"0900000002","itemOrdered":"Cold start test","amountPaid":1,"paymentMethod":"mpamba","transactionRef":"cold-ref","paymentProofUrl":"https://res.cloudinary.com/dd4xsfvsy/image/upload/cold.jpg"}
+[2026-06-02T21:15:05.711Z] [STEP] Before destructuring
+[2026-06-02T21:15:05.713Z] [STEP] After destructuring
+[2026-06-02T21:15:05.715Z] [VALIDATION] Starting validation
+[2026-06-02T21:15:05.717Z] [VALIDATION] PASSED
+[2026-06-02T21:15:05.729Z] [DB] Before prisma.submission.create
+[2026-06-02T21:15:05.731Z] [DB] Data: customerName=ColdStartTest, phone=0900000002, item=Cold start test, amount=1
+[2026-06-02T21:15:05.850Z] [DB] After create - submission.id=cmpx4z1lk00002c1onum7fbw5
+[2026-06-02T21:15:05.877Z] [RESPONSE] Before res.status(201).json()
+[2026-06-02T21:15:05.926Z] [RESPONSE] After res.status(201).json() - request complete
+[2026-06-02T21:16:05.260Z] [ENTRY] createSubmission called
+[2026-06-02T21:16:05.278Z] [BODY] {"customerName":"FinalAudit","phoneNumber":"0900000003","itemOrdered":"Audit","amountPaid":1,"paymentMethod":"mpamba","transactionRef":"final-audit","paymentProofUrl":"https://res.cloudinary.com/test.jpg"}
+[2026-06-02T21:16:05.296Z] [STEP] Before destructuring
+[2026-06-02T21:16:05.314Z] [STEP] After destructuring
+[2026-06-02T21:16:05.331Z] [VALIDATION] Starting validation
+[2026-06-02T21:16:05.344Z] [VALIDATION] PASSED
+[2026-06-02T21:16:05.345Z] [DB] Before prisma.submission.create
+[2026-06-02T21:16:05.347Z] [DB] Data: customerName=FinalAudit, phone=0900000003, item=Audit, amount=1
+[2026-06-02T21:16:05.369Z] [DB] After create - submission.id=cmpx50bjq00012c1o8cqfku2q
+[2026-06-02T21:16:05.382Z] [RESPONSE] Before res.status(201).json()
+[2026-06-02T21:16:05.398Z] [RESPONSE] After res.status(201).json() - request complete
